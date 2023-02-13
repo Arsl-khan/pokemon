@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid rgb(207, 207, 207);
+}
+
+.p1,
+.p2,
+.p3,
+.p4,
+.p5,
+.p6 {
+    border: 7px solid rgb(255, 255, 255);
+    height: 50px;
+}
+
+.nave-bar2 {
+    /* border: 1px solid rgb(241, 0, 181); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.icon-card2:hover {
+    background-color: #E3350D;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+.icon-card3:hover {
+    background-color: #EE6B2F;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+.icon-card4:hover {
+    background-color: #E6BC2F;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+.icon-card5:hover {
+    background-color: green;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+.icon-card6:hover {
+    background-color: #30A7D7;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+.icon-card7:hover {
+    background-color: #1B53BA;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+.icon-card1 {
+    width: 125px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+    cursor: pointer;
+    border: 3px solid #919191;
+    border-bottom-left-radius: 5px;
+    background-color: #919191;
+    color: white;
+}
+
+.icon-card2 {
+    width: 125px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+    cursor: pointer;
+    border-bottom: 5px solid #E3350D;
+    color: #919191;
+}
+
+.icon-card3 {
+    width: 125px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+    cursor: pointer;
+    border-bottom: 5px solid #EE6B2F;
+    color: #919191;
+}
+
+.icon-card4 {
+    width: 125px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+    cursor: pointer;
+    border-bottom: 5px solid #E6BC2F;
+    color: #919191;
+}
+
+.icon-card5 {
+    width: 125px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+    cursor: pointer;
+    border-bottom: 5px solid green;
+    color: #919191;
+}
+
+.icon-card6 {
+    width: 125px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+    cursor: pointer;
+    border-bottom: 5px solid #30A7D7;
+    color: #919191;
+}
+
+.icon-card7 {
+    width: 125px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+    cursor: pointer;
+    border-bottom: 5px solid #1B53BA;
+    border-bottom-right-radius: 5px;
+    color: #919191;
+}
+
+
+.fa-solid {
+    margin-bottom: 10px;
+}
+
+.section{
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    border: 1px solid red;
+}
+
+.main-card {
+    width: 70%;
+    height: 100vh;
+    border: 1px solid green;
+}
+
+.left {
+    width: 65%;
+    border: 1px solid purple;
+    height: 100vh;
+}
+
+.card-1 {
+    width: 100%;
+    border: 1px solid orange;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.card-1 img {
+    width: 100%;
+}
+
+.card-text {
+    background-color: #e6bc2f;
+    margin-top: -5px;
+    padding: 20px;
+    color: white;
+}
+
+.card-1 h2 {
+    margin-bottom: 10px;
+}
+
+.card-1 p {
+    color: black;
+    margin: 10px 0px;
+}
